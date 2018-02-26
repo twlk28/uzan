@@ -1,8 +1,8 @@
 const mode = 'dev' // ['dev', 'prd']
 
 const host = {
-    'dev': 'http://dev.zcat.cc:8001',
-    'prd': 'http://dev.zcat.cc:8001',
+    'dev': 'http://mock.zcat.cc',
+    'prd': 'http://mock.zcat.cc',
 }
 
 let url = {
