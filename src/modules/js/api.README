@@ -1,0 +1,129 @@
+// hot list
+{
+	"lists|10": [{
+		"id": "@increment",
+		"link": "@pick('https://h5.youzan.com/v2/showcase/goods?alias=2fwig6rnqfq6m&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=365dgchyzdtxe&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=3ngl01w7r4b9i&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=2xiz0ynyefc9p&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=1ya5nwvyvb8t1&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=3nj3a27og505i&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=273w8vno6x8jq&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=2ov6kbj4smwwi&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=3np5vvqoc62w7&amp;source=yzapp&amp;f_platform=yzapp','https://h5.youzan.com/v2/showcase/goods?alias=2ok5vxv8d23qq&amp;source=yzapp&amp;f_platform=yzapp')",
+		"cover": "@pick('https://img.yzcdn.cn/upload_files/2017/05/06/Fhy3xjNz5XWtcHM0YCZBsUPFpaXL.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/07/10/FqQYAfXfNGyg_AaV-fJVCaOg4j4l.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/07/03/FmwQG9tP0Q9nQPm4CDR5zlI9PKBt.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2016/11/04/Fut6-tAwHkUguKtkWIqsEjnvrutt.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/07/03/FhlrJkzVeMM46zTh_gwRXkLFvFGt.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/07/08/FtTrpa3fIcNJ3cp4_So1WH26cj9A.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/06/01/FsIeFiIjzSmGHo9sOvPpCpTgjODa.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/06/13/FjeqHCvSQWKw0S5wD9oroR2NR9rZ.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2017/04/13/Fq-Lf_Lht3NIaLUOBH6s5z6K0yYU.jpg?imageView2/2/w/320/h/0/q/75/format/jpg','https://img.yzcdn.cn/upload_files/2016/11/06/FpRZ3GWdr-ucvleqtie8GqOqhyhC.jpg?imageView2/2/w/320/h/0/q/75/format/jpg')",
+		"title": "@pick('i-mu/幻响醛击手除甲醛','【现挖48小时内发货】假一罚十 ！正宗天目山小香薯，不让朴实薯农血本无归！','【丰巢】【特价29.9元限量500份已售罄】连平鹰嘴桃 5斤装 包邮','*【读者专属】HFP全线产品最低64折起 点击下方【选择：种类】即可挑选产品 1WRI','【广西百色小贵妃--鲜嫩多汁，香味浓郁，皮薄核小，口口留香，新鲜现摘】','【优选】澳洲Swisse钙+维生素D','【瘦身降三高必备】减脂才是真减肥，集减脂/降三高/抗衰老的高科技黑茶，送家人朋友','【也许是最适合东方女性的香水】喷一喷，散发女性魅力，未见沙龙香水','最火好物！约会神器 ~必备！澳洲Breath Pearls天然清新口气珠 草本精华 无添加 50粒/瓶','【好物】可站立德国创意双层反向伞长柄男女晴雨伞')",
+		"price": "@pick('￥149.00','￥49.00','￥29.90','￥63.00','￥29.80','￥88.00','￥198.00','￥108.00','￥59.00','￥68.00')"
+	}]
+}
+
+// 轮播图
+{
+    "lists|5-10": [{
+        "clickURL": "/",
+        "image": "@image(375x180, @color)"
+    }]
+}
+
+// 目录1
+{
+	"lists|9": [{
+		"id": "@order(-1, 801, 802, 803, 804, 805, 806, 807, 808)",
+		"name": "@order('综合排行','女人穿着','男士穿着','箱包配饰','护肤彩妆','数码电器','母婴用品','运动户外','居家百货')"
+	}]
+}
+
+
+// 目录2
+{
+    "data": {
+        "brands|4-6": [
+            {
+                "id": "@order(85, 83, 82, 81, 80, 79)",
+                "image": "@image(60x60, @color)",
+                "name": "@order('良品铺子', '周黑鸭', '来一份', '五谷磨房', '龙润', '齐峰果业')"
+            }
+        ],
+        "categorys|5": [
+            {
+                "id": "@order(10,835,839,842,9)",
+                "image": "@image(60x60, @color)",
+                "name": "@order('水果', '生鲜', '饼干蛋糕', '坚果炒货', '休闲零食')"
+            }
+        ]
+    }
+}
+
+// rank
+{
+    "data": {
+        "goods|3":[{
+            "id": "@id",
+            "image": "@image(90x90, @color)",
+            "name": "【周黑鸭_锁鲜】气调盒装卤鸭锁骨240g",
+            "price": "@order(89, 29, 46, 80)",
+            "recommend": "@order(8844, 5765, 2770)"
+        }],
+        "keywords|6-9":["@order('化妆水', '连衣裙', '凉鞋女', '面膜', '防晒', '蓝牙音箱', '小白鞋', '裤子', '衬衫')"],
+        "shops|3":[{
+            "clickURL": "/",
+            "follows": "@order(7890,5389,3890)",
+            "images|3": ["@image(180x180, @color)"],
+            "name": "@order('幸福西饼', 'HomeFacial Pro', '物业365')"
+        }]
+    }
+}
+
+// 商品搜索列表
+{
+    "list|8": [{
+        "id": "@increment",
+        "image": "@img(320x320, @color)",
+        "isOut": "@pick(true, false, false, false)",
+		"isPostage": "@pick(true, false, false, false)",
+        "name": "简箪黄花梨 当季新鲜水果 现摘现发 无农药化肥 清甜多汁 包邮",
+        "price": "@int(10, 120)"
+    }]
+}
+
+
+//  商品详情
+{
+	"data":{
+		"identification": ["企业认证", "交易担保"],
+		"images|3": ["@img(375x375, @color)"],
+		"originalPrice": 108,
+		"price": 98,
+		"remain": 450,
+		"sales": 50,
+		"skuList|2": [{}],
+		"storeName": "寻找田野",
+		"title": "寻找田野|最正宗的上海南汇8424 得奖最多奥运会指定西瓜1只/箱 9-11斤",
+		"postage": "免运费",
+		"description": "<div class='js-components-container components-container'><div class='custom-richtext js-lazy-container js-view-image-list'><p><img data-origin-width='720' data-origin-height='713' src='https://img.yzcdn.cn/upload_files/2017/05/15/FhU7lMPonHtR8qP4zP4aIKRVkObr.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FhU7lMPonHtR8qP4zP4aIKRVkObr.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='494' src='https://img.yzcdn.cn/upload_files/2017/05/15/FvYqk840X0ubXwFE6Nh0unihqIKm.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FvYqk840X0ubXwFE6Nh0unihqIKm.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='916' src='https://img.yzcdn.cn/upload_files/2017/05/15/FvIfNYewmohf3b3V2yA_hr6whV-A.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FvIfNYewmohf3b3V2yA_hr6whV-A.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='656' src='https://img.yzcdn.cn/upload_files/2017/05/15/FlYJPxbAgmkKjWtvLxwqjUMJHUG3.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FlYJPxbAgmkKjWtvLxwqjUMJHUG3.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='513' src='https://img.yzcdn.cn/upload_files/2017/05/15/FmpaiyW8GbpV2I2QKwm7stoRQkOJ.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FmpaiyW8GbpV2I2QKwm7stoRQkOJ.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='691' src='https://img.yzcdn.cn/upload_files/2017/05/15/Fs5rqsKzMe7qIHhuQAqyM1lcjmfB.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/Fs5rqsKzMe7qIHhuQAqyM1lcjmfB.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='531' src='https://img.yzcdn.cn/upload_files/2017/05/15/Foor6_Ipc-Lo9eOX_H_a8g4kWPRW.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/Foor6_Ipc-Lo9eOX_H_a8g4kWPRW.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='932' src='https://img.yzcdn.cn/upload_files/2017/05/15/FuuNBFbA_vMYmI6FFbNOemmDX9bd.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FuuNBFbA_vMYmI6FFbNOemmDX9bd.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'><img data-origin-width='720' data-origin-height='707' src='https://img.yzcdn.cn/upload_files/2017/05/15/FotgIfOUlMtvhtH0dhRLlmpKJLv7.jpg?imageView2/2/w/730/h/0/q/75/format/webp' data-src='https://img.yzcdn.cn/upload_files/2017/05/15/FotgIfOUlMtvhtH0dhRLlmpKJLv7.jpg!730x0.jpg' class='js-richtext-img-lazy js-view-image-item'></p></div> <div class='price-intro'><h4>划线价格说明<i class='icon-arrow'></i></h4> <p>划线价格：划线的价格可能是商品的专柜价、吊牌价、正品零售价、指导价、曾经展示过的销售价等，仅供您参考。</p> <p>未划线价格：未划线的价格是商品的销售标价，具体的成交价格可能因会员使用优惠券、积分等发生变化，最终以订单结算价格为准。 </p> <p>*此说明仅当出现价格比较时有效。若这件商品针对划线价格进行了特殊说明，以特殊说明为准。</p></div></div>"
+	}
+}
+
+// 商品交易记录
+{
+	"list|10":[{
+		"buyer": "@name",
+		"num": "@int(1, 10)",
+		"time": "@datetime"
+	}]
+}
+
+// 加入购物车 | 表示所有 不需要返回值的操作
+// http://dev.zcat.cc:8001/api/13
+{
+	"status": 200
+}
+
+// 地址 - 列表
+{
+	"list|3": [{
+		"address": "软件园",
+		"cityName": "广州市",
+		"cityValue": 440100,
+		"districtName": "天河区",
+		"districtValue": 440106,
+		"id": "@order(52110, 52111, 52112)",
+		"isDefault": "@order(false, true, false)",
+		"name": "tony",
+		"provinceName": "广东省",
+		"provinceValue": 440000,
+		"tel": 13812891665
+	}]
+}
